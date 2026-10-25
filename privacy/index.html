@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy · Fault &amp; Folly</title>
+  <meta name="description" content="Privacy Policy for the Fault &amp; Folly website and its private YouTube publishing application.">
+  <link rel="icon" type="image/png" href="../favicon.png">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <a class="brand" href="../"><img src="../logo.png" alt="" width="40" height="40">Fault &amp; Folly</a>
+      <nav>
+        <a href="../">Home</a>
+        <a href="./" aria-current="page">Privacy Policy</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <h1>Privacy Policy</h1>
+    <p class="meta">Last updated: 26 October 2026</p>
+
+    <p>This policy covers two things: this public website, and <strong>Fault &amp; Folly</strong>, the private
+      internal application the channel owner uses to publish and manage videos on the
+      <a href="https://youtube.com/@faultandfolly" rel="noopener">Fault &amp; Folly YouTube channel</a>.</p>
+
+    <h2>1. This website</h2>
+    <ul>
+      <li>This is a static website. It has no accounts, sign-in, forms or comments.</li>
+      <li>It sets no cookies and uses no analytics, advertising or tracking tools.</li>
+      <li>It loads no third-party scripts, fonts or other external resources.</li>
+      <li>The site is hosted on GitHub Pages. Like any web host, GitHub may process technical information such as
+        your IP address to deliver and secure the site. See the
+        <a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement" rel="noopener">GitHub Privacy Statement</a>.</li>
+      <li>If you email us, we receive your email address and message and use them only to reply.</li>
+    </ul>
+
+    <h2>2. The Fault &amp; Folly publishing application</h2>
+    <p>The application is an internal tool, not a public service. It is used only by the owner of the Fault &amp;
+      Folly channel to manage that channel. Nobody else signs in to it, and it does not access any other person's
+      Google or YouTube account.</p>
+    <p>The channel owner signs in with Google OAuth and authorizes the application to access the channel's own
+      YouTube account. The application requests these permissions:</p>
+    <ul>
+      <li><code>https://www.googleapis.com/auth/youtube.upload</code>: upload new episodes to the channel (as
+        private videos first) and set their thumbnails.</li>
+      <li><code>https://www.googleapis.com/auth/youtube.readonly</code>: read information about the channel and its
+        videos, for example to confirm an upload and check its processing and privacy status. It is also used to
+        read public video information on YouTube for episode research.</li>
+      <li><code>https://www.googleapis.com/auth/youtube.force-ssl</code>: change a video's privacy status or
+        scheduled publication time. This is used only after the owner has approved the video for publication.</li>
+      <li><code>https://www.googleapis.com/auth/yt-analytics.readonly</code>: read aggregate performance reports
+        for the channel's own videos, such as views, watch time, audience retention and traffic sources.</li>
+    </ul>
+    <p>YouTube Analytics reports are aggregate statistics. The application does not receive or store the identity
+      of individual viewers, and it does not read comments, subscriber lists or private messages.</p>
+
+    <h2>3. How the information is used</h2>
+    <ul>
+      <li>To upload, schedule and publish the channel's own videos.</li>
+      <li>To send the channel owner private performance summaries for the channel's own videos.</li>
+      <li>To help plan future episodes. Aggregate performance figures for the channel's own videos may be included
+        in requests to a third-party AI text service that the application uses to draft topic ideas.</li>
+    </ul>
+    <p>Information received from Google APIs is not sold, not used for advertising, and not shared with anyone
+      except as described above.</p>
+
+    <h2>4. Storage and security</h2>
+    <ul>
+      <li>OAuth authorization credentials are stored only on a private server operated for the channel, in a
+        configuration file that only the application can read.</li>
+      <li>They are never published on this website, never included in source code, and never shared publicly.</li>
+      <li>Performance snapshots for the channel's own videos are stored in a private database on the same
+        server.</li>
+    </ul>
+
+    <h2>5. Revoking access</h2>
+    <p>The channel owner can revoke the application's access at any time on the Google Account
+      <a href="https://myaccount.google.com/permissions" rel="noopener">Third-party apps &amp; services</a> page. After
+      access is revoked, the stored credentials stop working and the application can no longer reach the YouTube
+      account. Stored credentials and performance snapshots can be deleted from the private server at any time.</p>
+
+    <h2>6. Google and YouTube</h2>
+    <p>The application uses YouTube API Services. By using YouTube you agree to the
+      <a href="https://www.youtube.com/t/terms" rel="noopener">YouTube Terms of Service</a>, and Google handles your
+      information under the <a href="https://policies.google.com/privacy" rel="noopener">Google Privacy Policy</a>.</p>
+
+    <h2>7. Changes</h2>
+    <p>If what the website or the application does with information changes, we will update this page and its
+      date.</p>
+
+    <h2>8. Contact</h2>
+    <p>Privacy questions: <a href="mailto:behnoush.norouzi@gmail.com">behnoush.norouzi@gmail.com</a></p>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      © 2026 Fault &amp; Folly · <a href="../">Home</a> · <a href="https://youtube.com/@faultandfolly" rel="noopener">YouTube</a>
+    </div>
+  </footer>
+</body>
+</html>
